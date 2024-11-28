@@ -1,0 +1,37 @@
+
+
+/*=======================================================
+7. wpo-service-single-section
+========================================================*/
+
+.wpo-p-details-section h4 {
+    font-size: 40px;
+    color: #121127;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.wpo-p-details-section p:last-child {
+    margin-bottom: 0;
+}
+
+
+@media(max-width: 530px) {
+    .wpo-p-details-section h4 {
+        font-size: 35px;
+    }
+}
+
+.wpo-minimal-img{
+    img{
+        width: 100%;
+    }
+}
+
+.wpo-service-details{
+    .blog-sidebar{
+        @media(min-width:991px){
+          padding-right: 30px;
+        }
+    }
+}
